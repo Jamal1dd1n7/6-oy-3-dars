@@ -1,0 +1,30 @@
+FN27 uy ishi
+Project hosil qiling.
+Project ichida app hosil qiling. 
+App ichidagi models.py da quyidagi modellarni yozing.
+Migratsiyani amalga oshiring.
+Modellarni admin panelda chiqaring.
+Admin panel orqali ma’lumot qo’shing.
+Ma’lumotlari brauzerda chiqaring (Rasmlar ham chiqsin).
+Loyixani GitHub ga yuklang.
+
+1. Course modeli
+Bu jadval kurslar haqida ma'lumotni saqlaydi.
+    Ustun nomi         Tipi            Izoh
+    title              VARCHAR         Kursning nomi.
+    description        TEXT            Kursning tavsifi.
+    created_at         TIMESTAMP       Kurs yaratilgan vaqti.
+    updated_at         TIMESTAMP       Kurs oxirgi tahrirlangan vaqti.
+
+
+2. Student modeli
+Bu jadval talabalarning ma'lumotlarini saqlaydi.
+    Ustun nomi         Tipi            Izoh
+    name               VARCHAR         Talabaning ismi.
+    email              VARCHAR         Talabaning email manzili.
+    enrolled_at        TIMESTAMP       Ro‘yxatdan o‘tgan vaqti.
+    course             On To Many      Course modeliga bog’lanadi.
+
+
+
+
